@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Review Book</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparant" data-aos="fade-down" data-aos-duration="500">
+        <div class="container mt-4">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler find" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex m-auto search" role="search">
+                    <input class="form-search me-2" type="search" placeholder="Find the book you are looking for" aria-label="Search">
+                    <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a class="nav-link" href="#">
+                            <h5><i class="bi bi-heart"></i></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item o me-4">
+                        <a class="nav-link" href="#">0</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <h5>EN</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-transparant" data-aos="fade-up" data-aos-duration="500">
+        <div class="container mt-3">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bestseller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade-right" data-aos-duration="1000">Book is a <br> window to the world</h1>
+                    <p data-aos="fade-left" data-aos-duration="1000"> wake up your dream by reading a book every day</p>
+                    <div class="btn read-now" data-aos="fade-up" data-aos-duration="1000">Read Now</div>
+                </div>
+            </div>
+            <img src="img/decor-reviews.png" alt="Decor" class="decor">
+            <img src="img/ilustration.png" alt="Ilustration" class="ilustration">
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section id="popular">
+            <div class="container">
+                <div class="row  my-5">
+                    <div class="col d-flex justify-content-between">
+                        <h2>Popular Now</h2>
+                        <p>View All</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 " data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/selena_cov.png" alt="Selena">
+                            <div class="card-body">
+                                <h5 class="card-title">Selena</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Tere Liye</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar.png" alt="Author" height="24">
+                                    <p>Andre Syak <span> <strong>•</strong> 1 week ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/habis.png" alt="habis">
+                            <div class="card-body">
+                                <h5 class="card-title">How To Master Your Habits</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Felix Y Siauw</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-2.png" alt="Author" height="24">
+                                    <p>John Lucas <span> <strong>•</strong> 5 day ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/bintang.png" alt="Bintang">
+                            <div class="card-body">
+                                <h5 class="card-title">Bintang</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Tere Liye</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-3.png" alt="Author" height="24">
+                                    <p>Ade Barkah<span> <strong>•</strong> 6 month ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/start-with-why.png" alt="Start With Why">
+                            <div class="card-body">
+                                <h5 class="card-title">Start With Why</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Felix Y Siauw</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-4.png" alt="Author" height="24">
+                                    <p>Ryan Dewa <span> <strong>•</strong> 3 month ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest">
+            <div class="container">
+                <div class="row  my-5">
+                    <div class="col d-flex justify-content-between">
+                        <h2>Latest Books</h2>
+                        <p>View All</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/compound.png" alt="Compound">
+                            <div class="card-body">
+                                <h5 class="card-title">The Compound Effect</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Drren Hardy</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar.png" alt="Author" height="24">
+                                    <p>Andre Syak <span> <strong>•</strong> 1 week ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/building.png" alt="Build">
+                            <div class="card-body">
+                                <h5 class="card-title">Build A Story Brand</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Felix Y Siauw</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-2.png" alt="Author" height="24">
+                                    <p>John Lucas <span> <strong>•</strong> 5 day ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/product-3.png" alt="Crushing IT">
+                            <div class="card-body">
+                                <h5 class="card-title">Crushing IT</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>Gary Vaynerchuck</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-3.png" alt="Author" height="24">
+                                    <p>Ade Barkah<span> <strong>•</strong> 6 month ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="card p-3 shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/product-4.png" alt="Atomic Habits">
+                            <div class="card-body">
+                                <h5 class="card-title">Atomic Habits</h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p>James Clear</p>
+                                <div class="profil d-flex align-items-center">
+                                    <img src="img/Author avatar-4.png" alt="Author" height="24">
+                                    <p>Ryan Dewa <span> <strong>•</strong> 3 month ago</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommended">
+            <div class="container text-center" data-aos="zoom-in" data-aos-offset="250" data-aos-duration="1000">
+                <h1>Recommended books <br> from you to review</h1>
+                <form class="d-flex justify-content-center mt-5" role="search">
+                    <input class="form-recommended" type="search" placeholder="write your recommendation" aria-label="Search">
+                    <button class="btn btn-recommended" type="submit">Submit</button>
+                </form>
+                <img src="img/decor-reviews.png" alt="Decor" class="decor-rec">
+            </div>
+            </div>
+        </section>
+
+        <section id="testimony">
+            <div class="container my-5">
+                <div class="row text-center">
+                    <div class="col-md-4 col-sm-12 position-relative mt-5" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/user.png" alt="User 1" height="100" width="100" class="mx-auto">
+                            <h5>Eka Ardilah</h5>
+                            <p>I feel very helpful with all the books provided, so I do my job easily and happily</p>
+                        </div>
+                        <img src="img/quotes.svg" alt="quotes" class="position-absolute">
+                    </div>
+                    <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/hazar.png" alt="User 2" height="100" width="100" class="mx-auto">
+                            <h5>Hazar Hamzah</h5>
+                            <p>Thank you. Many good books to accompany everyday</p>
+                        </div>
+                        <img src="img/quotes.svg" alt="quotes" class="position-absolute">
+                    </div>
+                    <div class="col-md-4 col-sm-12 position-relative mt-5" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card shadow p-3 mb-5 bg-body rounded">
+                            <img src="img/user-3.png" alt="User 3" height="100" width="100" class="mx-auto">
+                            <h5>Khoerunnisa</h5>
+                            <p>Thanks team, many recommended books for me to read</p>
+                        </div>
+                        <img src="img/quotes.svg" alt="quotes" class="position-absolute">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container" data-aos="fade-up" data-aos-offset="250" data-aos-duration="1000">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>Is the best place to review a book</p>
+                </div>
+                <div class="col-md-3 col-sm-12 mg">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Bestseller</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">admin@reviewbook.com</a></li>
+                        <li><a href="#">Jln. Stiabudhi No. 193 Bandung Indonesia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col d-flex justify-content-between">
+                    <p>&copy; 2023 ReviewBook. All rights reserved.</p>
+                    <p class="tag">Design by <a href="">Codelillah.com</a></p>
+                    <div class="sosmed">
+                        <img src="img/instagram.svg" alt="Ig">
+                        <img src="img/facebook.svg" alt="Ig">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+
+nav .search {
+    background-color: rgb(243, 244, 246);
+    padding: 6px;
+    border-radius: 8px;
+}
+
+nav .form-search {
+    width: 320px;
+    background-color: rgb(243, 244, 246);
+    border: none;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+nav .navbar h5 {
+    color: #000;
+}
+
+nav .o a {
+    background-color: #B4D51E;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav .o a:hover {
+    background-color: #c4e62e;
+    color: #fff;
+}
+
+.navbar .active {
+    border-bottom: 2px solid #B4D51E;
+}
+
+header .container {
+    background-color: #FBF4E2;
+    padding: 100px;
+    border-radius: 30px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    color: #463C74;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+header p {
+    margin-top: 24px;
+}
+
+header .read-now {
+    background-color: #B4D51E;
+    color: #fff;
+    padding: 8px 20px;
+    margin-top: 32px;
+}
+
+header .read-now:hover {
+    background-color: #c4e62e;
+    color: #fff;
+}
+
+header .decor {
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+header .ilustration {
+    position: absolute;
+    top: 32px;
+    right: 42px;
+}
+
+main h2 {
+    font-size: 32px;
+}
+
+main p {
+    font-size: 16px;
+    color: #828282;
+}
+
+.card {
+    border: none;
+    max-height: 580px;
+}
+
+#popular .card h5,
+#latest .card h5 {
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card .bi-star-fill {
+    color: #B4D51E;
+}
+
+.card p {
+    margin-top: 24px;
+}
+
+#popular .profil p,
+#latest .profil p {
+    font-size: 16px;
+    color: #000;
+    margin-left: 6px;
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#popular .profil span,
+#latest .profil span {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+}
+
+#recommended .container {
+    background-color: #FBF4E2;
+    overflow: hidden;
+    padding: 100px;
+    border-radius: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#recommended h1 {
+    color: #463C74;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#recommended .form-recommended {
+    height: 58px;
+    width: 320px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+#recommended .btn-recommended {
+    background-color: #B4D51E;
+    color: #fff;
+    height: 58px;
+    border-radius: 8px;
+    margin-left: 32px;
+    padding: 10px 22px;
+}
+
+#recommended .btn-recommended:hover {
+    background-color: #c4e62e;
+    color: #fff;
+}
+
+#recommended .decor-rec {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#testimony .card {
+    margin-top: 50px;
+    height: 240px;
+}
+
+#testimony .card:hover {
+    background-color: #FBF4E2 !important;
+}
+
+#testimony .card img {
+    margin-top: -60px;
+}
+
+#testimony h5 {
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+#testimony p {
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+#testimony img {
+    top: 40px;
+    right: 22px;
+}
+
+footer {
+    background-color: #FBF4E2;
+    padding: 50px;
+}
+
+footer p {
+    color: #828282;
+    margin-top: 16px;
+}
+
+footer h5 {
+    font-size: 22px;
+}
+
+footer ul {
+    margin-left: -32px;
+    list-style: none;
+    margin-top: 24px;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #828282;
+}
+
+footer ul li a:hover {
+    color: #000;
+}
+
+.tag a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+    header .ilustration {
+        position: absolute;
+        top: 45px;
+        right: -50px;
+    }
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 991px) {
+    body {
+        margin-top: -40px;
+    }
+    .navbar .active {
+        border-bottom: none;
+    }
+    .find {
+        display: none;
+    }
+    .navbar-brand {
+        position: absolute;
+        top: 62px;
+    }
+    header .col {
+        margin-top: 400px;
+    }
+    header .ilustration {
+        position: absolute;
+        top: 45px;
+        right: 100px;
+    }
+    #popular .card {
+        min-height: 700px;
+    }
+    #popular .card h5 {
+        font-size: 20px;
+    }
+    #latest .card {
+        min-height: 700px;
+    }
+    #latest .card h5 {
+        font-size: 20px;
+    }
+    #testimony .card img {
+        width: 75px;
+        height: 75px;
+    }
+    #testimony img {
+        width: 50px;
+        height: 50px;
+    }
+    #recommended .decor-rec {
+        position: absolute;
+        right: -10px;
+        top: -20px;
+    }
+    #testimony p {
+        font-size: 12px;
+    }
+}
+
+
+/* Hp */
+
+@media screen and (max-width: 767px) {
+    header h1 {
+        font-weight: 400;
+        font-size: 32px;
+    }
+    header p {
+        margin-top: 18px;
+    }
+    .ilustration {
+        top: 45px;
+        left: 50px;
+    }
+    #popular h2,
+    #latest h2 {
+        font-size: 24px;
+    }
+    #popular .card {
+        max-height: 1000px;
+    }
+    #popular .card h5 {
+        font-size: 20px;
+    }
+    #latest .card {
+        min-height: 1000px;
+    }
+    #latest .card h5 {
+        font-size: 20px;
+    }
+    #recommended h1 {
+        font-size: 24px;
+    }
+    #testimony h5 {
+        font-size: 16px;
+    }
+    #testimony p {
+        font-size: 16px;
+    }
+    footer .mg {
+        margin-top: 50px;
+    }
+}
